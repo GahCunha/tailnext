@@ -10,7 +10,7 @@ const ToggleMenu = ({ handleToggleMenuOnClick, isToggleMenuOpen }: ToggleMenuPro
     aria-label="Toggle Menu"
     onClick={handleToggleMenuOnClick}
   >
-    {isToggleMenuOpen ? <IconX className="h-6 w-6" /> : <IconMenu className="h-6 w-6" />}
+    {isToggleMenuOpen ? <IconX className="w-6 h-6" /> : <IconMenu className="w-6 h-6" />}
   </button>
 );
 
